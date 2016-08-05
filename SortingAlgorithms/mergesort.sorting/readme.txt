@@ -1,4 +1,4 @@
-﻿Algorithm
+﻿MergeSort Algorithm
 --------------
 Conceptually, a merge sort works as follows:
 - Divide the unsorted list into n sublists, each containing 1 element (a list of 1 element is considered sorted).
