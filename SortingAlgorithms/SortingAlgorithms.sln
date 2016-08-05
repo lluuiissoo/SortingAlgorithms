@@ -3,8 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MergeSort", "MergeSort", "{2A75AEE4-4565-45A7-9936-ACACF090AFD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mergesort.sorting", "mergesort.sorting\mergesort.sorting.csproj", "{C73F9244-89C5-4611-BA19-8C7A886BFEFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests.mergesort.sorting", "tests.mergesort.sorting\tests.mergesort.sorting.csproj", "{271D68DA-8BA8-4018-B66B-933FCA9CD5B3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C73F9244-89C5-4611-BA19-8C7A886BFEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73F9244-89C5-4611-BA19-8C7A886BFEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73F9244-89C5-4611-BA19-8C7A886BFEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73F9244-89C5-4611-BA19-8C7A886BFEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271D68DA-8BA8-4018-B66B-933FCA9CD5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271D68DA-8BA8-4018-B66B-933FCA9CD5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271D68DA-8BA8-4018-B66B-933FCA9CD5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271D68DA-8BA8-4018-B66B-933FCA9CD5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C73F9244-89C5-4611-BA19-8C7A886BFEFE} = {2A75AEE4-4565-45A7-9936-ACACF090AFD2}
+		{271D68DA-8BA8-4018-B66B-933FCA9CD5B3} = {2A75AEE4-4565-45A7-9936-ACACF090AFD2}
 	EndGlobalSection
 EndGlobal
