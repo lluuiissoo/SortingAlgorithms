@@ -56,12 +56,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\bubblesort.sorting\bubblesort.sorting.csproj">
-      <Project>{9d374bf4-3ce0-4bc4-8414-f9cd585376a8}</Project>
-      <Name>bubblesort.sorting</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

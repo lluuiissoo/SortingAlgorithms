@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BubbleSort", "BubbleSort", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests.bubblesort.sorting", "tests.bubblesort.sorting\tests.bubblesort.sorting.csproj", "{768CE93C-B468-4C2F-B996-25F6D4193BB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bubblesort.sorting", "bubblesort.sorting\bubblesort.sorting.csproj", "{9D374BF4-3CE0-4BC4-8414-F9CD585376A8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +31,6 @@ Global
 		{768CE93C-B468-4C2F-B996-25F6D4193BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{768CE93C-B468-4C2F-B996-25F6D4193BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{768CE93C-B468-4C2F-B996-25F6D4193BB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D374BF4-3CE0-4BC4-8414-F9CD585376A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D374BF4-3CE0-4BC4-8414-F9CD585376A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D374BF4-3CE0-4BC4-8414-F9CD585376A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D374BF4-3CE0-4BC4-8414-F9CD585376A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +39,5 @@ Global
 		{C73F9244-89C5-4611-BA19-8C7A886BFEFE} = {2A75AEE4-4565-45A7-9936-ACACF090AFD2}
 		{271D68DA-8BA8-4018-B66B-933FCA9CD5B3} = {2A75AEE4-4565-45A7-9936-ACACF090AFD2}
 		{768CE93C-B468-4C2F-B996-25F6D4193BB5} = {8DEFC2DE-9241-488F-AE70-749CC22C352C}
-		{9D374BF4-3CE0-4BC4-8414-F9CD585376A8} = {8DEFC2DE-9241-488F-AE70-749CC22C352C}
 	EndGlobalSection
 EndGlobal
